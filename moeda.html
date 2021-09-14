@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas - aula 2 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="interacao.js"></script>
+    
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Faça a conversão para dólar, euro ou real
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    <label for="moeda">De:</label><br>
+    <select id="moeda1" /><br>
+    <option value="real">Real</option>
+    <option value="euro">Euro</option>
+    <option value="dolar">Dólar</option>
+    <option value="bitcoin">Bitcoin</option>
+    </select></br></br>
+  
+    <label for="moeda">Insira o valor</label><br>
+    <input type="number" id="valor1" /><br>
+  
+    <label for="moeda">Para:</label><br>
+    <select id="moeda2" /><br>
+    <option value="real">Real</option>
+    <option value="euro">Euro</option>
+    <option value="dolar">Dólar</option>
+    <option value="bitcoin">Bitcoin</option>
+    </select>
+  
+    <label for="moeda"></label><br>
+    <input type="number" id="valor2" /><br>
+  
+    <button type="submit" onclick="Converter()">Converter</button>
+    <div id="valorConvertido"></div>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    
+</body>
+</html>
